@@ -46,7 +46,6 @@ public class RedirectingController
     {
         String originalUrl =
                 service.getOriginalUrl(shortCode);
-        System.out.println(originalUrl);
 
         service.updateCount(shortCode);
 
